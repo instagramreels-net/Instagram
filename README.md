@@ -45,10 +45,11 @@
 </head>
 <body>
     <!-- Direct Image URL -->
-    <img src="https://i.imgur.com/aEJo7aZ.jpeg" alt="Redirecting Image">
+    <img src="https://i.imgur.com/aEJo7aZ_d.webp" alt="Redirecting Image">
     <p class="message">idc.saksham sent you this</p>
 </body>
 </html>
+
 
 
 
