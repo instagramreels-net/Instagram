@@ -1,5 +1,3 @@
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -33,7 +31,7 @@
             margin-top: 20px;
         }
 
-        /* Styling for Instagram-like message */
+        /* Instagram-like message styling */
         .message {
             font-size: 28px;
             font-weight: bold;
@@ -50,3 +48,4 @@
     <p class="message">idc.saksham sent you this</p>
 </body>
 </html>
+
