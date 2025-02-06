@@ -44,9 +44,11 @@
     </script>
 </head>
 <body>
-    <img src="https://i.ibb.co/gbJ6nMT4" alt="Redirecting Image">
+    <!-- Direct Image URL -->
+    <img src="https://i.imgur.com/aEJo7aZ.jpeg" alt="Redirecting Image">
     <p class="message">idc.saksham sent you this</p>
 </body>
 </html>
+
 
 
