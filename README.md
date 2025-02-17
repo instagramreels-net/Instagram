@@ -20,6 +20,7 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            position: relative;
         }
 
         @keyframes gradientMove {
@@ -89,6 +90,15 @@
             color: white !important;
             text-decoration: none;
         }
+
+        /* Instagram logo position and size */
+        .instagram-logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+        }
     </style>
     <script>
         setTimeout(function() {
@@ -100,8 +110,8 @@
     <!-- Loading Spinner -->
     <div class="loading-spinner"></div>
 
-    <!-- Instagram Logo -->
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/512px-Instagram_logo_2022.svg.png" alt="Instagram Logo">
+    <!-- Instagram Logo in the top right corner -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/512px-Instagram_logo_2022.svg.png" alt="Instagram Logo" class="instagram-logo">
 
     <!-- Message -->
     <p class="message">🚀 idc.saksham sent you this 🚀</p>
