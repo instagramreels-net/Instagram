@@ -39,9 +39,9 @@
             color: white; /* Ensures the message is white */
         }
 
-        /* Apply white color to project name if needed */
-        .project-name {
-            color: white; /* Ensures the project name text is white */
+        /* Ensures no links or other text override the white color */
+        a {
+            color: white !important;
         }
     </style>
     <script>
