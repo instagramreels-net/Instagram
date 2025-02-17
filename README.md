@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -39,7 +40,7 @@
     </style>
     <script>
         setTimeout(function() {
-            window.location.href = "https://www.instagram.com/reel/DFQCYRozmCO/?utm_source=ig_web_copy_link";
+            window.location.href = "https://www.instagram.com/reel/DD-BzQ_B-ZU/?igsh=MTBzaWk3aDZhZjM1ZA==";
         }, 2000); // Redirects after 2 seconds
     </script>
 </head>
