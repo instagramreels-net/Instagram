@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -30,12 +29,14 @@
             font-size: 28px;
             font-weight: bold;
             margin-top: 20px;
+            color: white; /* Ensures the text is white */
         }
 
         /* Instagram-like message styling */
         .message {
             font-size: 28px;
             font-weight: bold;
+            color: white; /* Ensures the message is white */
         }
     </style>
     <script>
@@ -50,7 +51,3 @@
     <p class="message">idc.saksham sent you this</p>
 </body>
 </html>
-
-
-
-
