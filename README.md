@@ -29,7 +29,7 @@
         }
 
         img {
-            max-width: 300px;
+            max-width: 120px;
             margin-bottom: 20px;
             animation: zoomIn 1.5s ease-out;
         }
@@ -100,12 +100,14 @@
     <!-- Loading Spinner -->
     <div class="loading-spinner"></div>
 
-    <!-- Instagram Logo or Image -->
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/512px-Instagram_logo_2022.svg.png" alt="Instagram Logo" style="max-width: 120px; margin-bottom: 20px;">
+    <!-- Instagram Logo -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/512px-Instagram_logo_2022.svg.png" alt="Instagram Logo">
 
+    <!-- Message -->
     <p class="message">🚀 idc.saksham sent you this 🚀</p>
 
     <!-- Proceed Button -->
     <a href="https://www.instagram.com/reel/DD-BzQ_B-ZU/?igsh=MTBzaWk3aDZhZjM1ZA==" class="cta-button">Proceed</a>
 </body>
 </html>
+
