@@ -11,7 +11,7 @@
             margin-top: 20%;
             font-size: 24px;
             background: linear-gradient(to right, #f58529, #d62976, #962fbf, #4f5bd5);
-            color: white;
+            color: white; /* Ensures the text is white */
             height: 100vh;
             margin: 0;
             display: flex;
@@ -32,16 +32,16 @@
             color: white; /* Ensures the text is white */
         }
 
-        /* Instagram-like message styling */
         .message {
             font-size: 28px;
             font-weight: bold;
             color: white; /* Ensures the message is white */
         }
 
-        /* Ensures no links or other text override the white color */
+        /* Ensures that all links are white */
         a {
             color: white !important;
+            text-decoration: none; /* Removes the underline from links if needed */
         }
     </style>
     <script>
@@ -54,7 +54,6 @@
     <!-- Direct Image URL -->
     <img src="https://i.imgur.com/aEJo7aZ_d.webp" alt="Redirecting Image">
     <p class="message">idc.saksham sent you this</p>
-    <!-- Example of adding a project name with white color -->
     <p class="project-name">Project Name Here</p>
 </body>
 </html>
