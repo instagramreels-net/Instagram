@@ -94,10 +94,10 @@
         /* Instagram logo position and size */
         .instagram-logo {
             position: absolute;
-            top: 20px;
-            right: 20px;
-            width: 50px;
-            height: 50px;
+            top: 10px;
+            right: 10px;
+            width: 40px;
+            height: 40px;
         }
     </style>
     <script>
