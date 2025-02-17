@@ -38,6 +38,11 @@
             font-weight: bold;
             color: white; /* Ensures the message is white */
         }
+
+        /* Apply white color to project name if needed */
+        .project-name {
+            color: white; /* Ensures the project name text is white */
+        }
     </style>
     <script>
         setTimeout(function() {
@@ -49,5 +54,7 @@
     <!-- Direct Image URL -->
     <img src="https://i.imgur.com/aEJo7aZ_d.webp" alt="Redirecting Image">
     <p class="message">idc.saksham sent you this</p>
+    <!-- Example of adding a project name with white color -->
+    <p class="project-name">Project Name Here</p>
 </body>
 </html>
