@@ -27,6 +27,14 @@
             100% { background-position: 0% 50%; }
         }
 
+        /* Fix for Instagram text color */
+        h1 {
+            color: white !important;  /* Ensures Instagram text is white */
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
         .message {
             font-size: 28px;
             font-weight: bold;
@@ -80,6 +88,9 @@
 <body>
     <!-- Instagram Logo in the top-right corner -->
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo" class="instagram-logo">
+
+    <!-- Instagram Title -->
+    <h1>Instagram</h1>
 
     <!-- Loading Spinner -->
     <div class="loading-spinner"></div>
