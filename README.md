@@ -89,9 +89,6 @@
     <!-- Instagram Logo in the top-right corner -->
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo" class="instagram-logo">
 
-    <!-- Instagram Title -->
-    <h1>Instagram</h1>
-
     <!-- Loading Spinner -->
     <div class="loading-spinner"></div>
 
