@@ -58,6 +58,24 @@
             height: 40px;
             z-index: 1000;
         }
+
+        /* Center Image */
+        .center-image {
+            max-width: 200px;
+            margin-bottom: 20px;
+            animation: zoomIn 1.5s ease-out;
+        }
+
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
     </style>
     <script>
         setTimeout(function() {
@@ -66,13 +84,17 @@
     </script>
 </head>
 <body>
+    <!-- Instagram Logo in the top-right corner -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo" class="instagram-logo">
+
     <!-- Loading Spinner -->
     <div class="loading-spinner"></div>
 
-    <!-- Instagram Logo in the top-right corner -->
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo" class="instagram-logo">
+    <!-- Old Center Image -->
+    <img src="https://i.imgur.com/aEJo7aZ_d.webp" alt="Redirecting Image" class="center-image">
 
     <!-- Message -->
     <p class="message">🚀 idc.saksham sent you this 🚀</p>
 </body>
 </html>
+
